@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <title>
+            맥주
+        </title>
+        <meta charset = "utf-8">
+        <style>
+            body{
+                margin : 0 auto;
+                background-color: black;  
+                width:40%;
+            }
+            .font-prop{
+                    font-size: 20px;
+                    font-weight: bold;
+                    color:ivory;
+                    font-family:Verdana, Geneva, Tahoma, sans-serif
+            }
+            fieldset{
+                border: 4px dotted
+            }
+        </style>
+    </head>
+    <body class = "font-prop">
+        <img src = "http://img.hani.co.kr/imgdb/resize/2019/0313/00501969_20190313.JPG" width = "350" height = "350">
+        <h1>맥주</h1>
+        <fieldset >
+            <h1>시원한 느낌으로 여름을 잊어버리고 싶다면? 5000원</h1>
+        </fieldset>
+        <br>
+        <button onclick="goBack()">뒤쪽 페이지로</button>
+        <script>
+            function goBack() {
+            window.history.back();
+            }   
+        </script>
+        <button type = "submit">제출하기</button>
+    </body>
+</html>
